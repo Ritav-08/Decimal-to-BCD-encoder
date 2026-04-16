@@ -1,0 +1,90 @@
+$date
+   Wed Apr 15 12:17:00 2026
+$end
+
+$version
+  2025.2
+  $dumpfile ("DtBCDencoder.vcd") 
+$end
+
+$timescale
+  1ps
+$end
+
+$scope module tb_DtBCDencoder $end
+$var reg 10 ! a_i [9:0] $end
+$var wire 4 " y_o [3:0] $end
+$scope module UUT $end
+$var wire 10 # a_i [9:0] $end
+$var reg 4 $ y_o [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+
+#0
+$dumpvars
+b0 !
+bx "
+b0 #
+bx $
+$end
+
+#5000
+b1 !
+b0 "
+b1 #
+b0 $
+
+#10000
+b10 !
+b1 "
+b10 #
+b1 $
+
+#15000
+b100 !
+b10 "
+b100 #
+b10 $
+
+#20000
+b1000 !
+b11 "
+b1000 #
+b11 $
+
+#25000
+b10000 !
+b100 "
+b10000 #
+b100 $
+
+#30000
+b100000 !
+b101 "
+b100000 #
+b101 $
+
+#35000
+b1000000 !
+b110 "
+b1000000 #
+b110 $
+
+#40000
+b10000000 !
+b111 "
+b10000000 #
+b111 $
+
+#45000
+b100000000 !
+b1000 "
+b100000000 #
+b1000 $
+
+#50000
+b1000000000 !
+b1001 "
+b1000000000 #
+b1001 $
